@@ -1,0 +1,120 @@
+@import url('../css/cdn.css');
+
+.customers {
+    padding: 100px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-align: center;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 40px auto 0;
+}
+.title-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 40px;
+    color: #86878B;
+}
+.customers-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.customers-card {
+    width: 298px;
+    margin: 0 15px;
+}
+.customers-card-text {
+    background-color: #E2E2E2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+}
+.customers-card-text::after{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-top: 20px solid #E2E2E2;
+    position: absolute;
+    left: 40px;
+    top: 100%;
+}
+.customers-card-info {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customers-card-img-1 {
+    width: 70px;
+    height: 70px;
+    margin: 0 40px 30px;
+    background: url(../img/profile-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;   
+}
+.customers-card-img-2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 40px 30px;
+    background: url(../img/profile-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers-card-img-3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 40px 30px;
+    background: url(../img/profile-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.customers-card-specialist {
+}
+.name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.job {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    display: block;
+    text-align: right;
+}

@@ -1,0 +1,57 @@
+@import url('../css/cdn.css');
+
+.design {
+    position: relative;
+    padding: 100px 0;
+    background: url(../img/background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.design::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, .55);
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 34px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+}
+.button {
+    font-family: 'Open Sans';
+    display: block;
+    margin: auto;
+    width: 135px;
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(1,1,1,0);
+    cursor: pointer;
+    transition: 0.2s;
+}

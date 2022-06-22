@@ -1,0 +1,103 @@
+@import url('../css/cdn.css');
+
+.contact {
+    padding: 100px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-align: center;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 40px auto 0;
+}
+.title-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 40px;
+    color: #86878B;
+}
+.contacts-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 -15px;
+    margin-bottom: 68px;
+}
+.contacts-block {
+    margin: 0 15px;
+}
+.contacts-block-item {
+    width: 478px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 40px;
+    color: #BDBDBD;
+}
+.contacts-block-item:last-child{
+    margin-bottom: 0px;
+}
+.contacts-block-item input{
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+.contacts-area {
+    width: 478px;
+    margin: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.contacts-area textarea{
+    font-size: 25.55px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    display: block;
+    width: 100%;
+    outline: none;
+    
+
+}
+.contacts-btn {   
+    font-family: 'Open Sans';
+    display: block;    
+    width: 166px;
+    padding: 11px;
+    margin: auto;
+    background: #EC7979;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    border: none;
+    transition: 0.2s;
+}
+
+.contacts-btn:hover{
+    transform: translate(0px, -5px);
+    transform:scaleX(1px);
+    color: rgb(217, 176, 176);
+    cursor: pointer;
+}

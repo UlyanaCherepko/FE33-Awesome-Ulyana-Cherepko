@@ -21,7 +21,7 @@
     z-index: 2;
 }
 
-.title {
+.design-title {
     font-family: 'Raleway';
     font-size: 36px;
     line-height: 42px;
@@ -31,7 +31,7 @@
     color: #FFFFFF;
 }
 
-.text {
+.design-text {
     font-family: 'Raleway';
     font-weight: 300;
     font-size: 16px;
